@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+#html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    padding: 30px 40px;
+    
+}
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+#nav h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+#nav h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+#nav h4{
+    font-size: 22px;
+    font-weight: 600;
+}
+#content{
+    margin-top: 60px;
+    padding: 40px 65px;
+}
+#content h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+#content h1{
+    font-size: 150px;
+    line-height: 150px;
+    font-weight: 500;
+    letter-spacing: -9px;
+}
+#case{
+    padding: 40px 65px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#case h4{
+    font-size: 26px;
+    font-weight: 500;
+
+}
+#case h5{
+    font-size: 26px;
+    font-weight: 500;
+
+}
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+#line{
+    height: 2px;
+    width: 100px;
+    background-color: black;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  40px 65px;
+    gap: 60px;
+}
+.elm{
+    width: 50%;
+}
+.elm-img{
+    height: 500px;
+    width: 100%;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image:url(https://tse1.explicit.bing.net/th?id%3DOIP.oDDVWuFjs7rqzenR2vo4ewAAAA%26pid%3DImgDet%26w%3D181%26h%3D181%26c%3D7) ;
+    background-image: url("https://tse1.explicit.bing.net/th?id=OIP.oDDVWuFjs7rqzenR2vo4ewAAAA&pid=ImgDet&w=181&h=181&c=7");
+}
+#img2{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.U1nL1UITYgfR6HXlqfp2tQHaEM&rs=1&pid=ImgDetMain");
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom i{
+    padding:  15px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius:50px;
+}
